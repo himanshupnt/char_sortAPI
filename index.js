@@ -1,5 +1,6 @@
 const express = require("express");
 const multer = require("multer");
+const { strSorter } = require("./sorter");
 
 const app = express();
 const upload = multer();
@@ -13,10 +14,7 @@ app.use((err, req, res, next) => {
 });
 app.post("/sort", upload.array(), (req, res) => {
   const { unsorted } = req.body;
-  const sorted = unsorted
-    .split("")
-    .sort()
-    .join("");
+  const sorted = strSorter(unsorted);
   res.send({ sorted });
 });
 app.listen(PORT, () => console.log(`server running on port ${PORT}`));
