@@ -3,7 +3,6 @@
   border-radius: 2px;
   text-align: center;
   max-width: 300px;
-  height: 250px;
   margin: 60px auto 0 auto;
   font-family: "Roboto", sans-serif;
   background-color: #fafafa;
@@ -41,4 +40,14 @@
 }
 #submit-btn:hover {
   background-color: #04c7e0;
+}
+#results {
+  margin: auto;
+  max-width: 250px;
+}
+#results th {
+  width: 125px;
+}
+#results td {
+  width: 140px;
 }
