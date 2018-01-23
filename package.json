@@ -1,0 +1,33 @@
+{
+  "name": "char_sortapi",
+  "version": "1.0.0",
+  "description": "A fun simple api that sorts strings",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshupnt/char_sortAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshupnt/char_sortAPI/issues"
+  },
+  "homepage": "https://github.com/himanshupnt/char_sortAPI#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "jest": "^22.1.4",
+    "prettier": "^1.10.2"
+  }
+}
